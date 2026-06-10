@@ -6,9 +6,15 @@ Design Assignment
 Implemented 4-bit Ripple Carry Adder in Verilog.
 Created and verified testbench using simulation.
 
+
+<img width="1113" height="551" alt="rca" src="https://github.com/user-attachments/assets/68284138-92ea-4965-97c6-56fc38aebe97" />
+
 **BCD Adder**
 Implemented BCD Adder in Verilog.
 Created and verifed testbench using simulation.
+<img width="1472" height="596" alt="bcd" src="https://github.com/user-attachments/assets/ee7631f9-eed6-4d9c-99ec-4e3a93281155" />
+
+
 
 **Day 2**
 
