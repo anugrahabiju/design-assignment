@@ -43,3 +43,9 @@ Testbench created and verified.
 
 <img width="1605" height="607" alt="usr" src="https://github.com/user-attachments/assets/c7158fee-57a5-40c7-926b-f31f68baceb6" />
 
+
+**Sequence Detector (1110 Overlapping)**
+
+Implemented a sequence detector in Verilog using FSM to detect the pattern 1110 with overlapping capability. Designed the corresponding testbench and verified the functionality through simulation waveforms.
+
+<img width="1584" height="595" alt="sequencedetectorovl" src="https://github.com/user-attachments/assets/761389d2-5796-432c-a908-f1323906cd0c" />
