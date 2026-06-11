@@ -35,3 +35,34 @@ A Verilog testbench was developed to apply different input combinations and veri
 
 
 <img width="1113" height="551" alt="rca" src="https://github.com/user-attachments/assets/a847a24e-4c35-4fd4-af67-84f1e0964afa" />
+
+
+
+**Description**
+
+A BCD (Binary Coded Decimal) Adder was implemented using Verilog HDL. The design performs decimal addition and applies BCD correction whenever the binary sum exceeds 9.
+
+**Files**
+
+bcd_adder.v,
+bcd_adder_tb.v
+
+**Inputs**
+
+A[3:0],
+B[3:0],
+Cin
+
+**Outputs**
+
+Sum[3:0],
+Cout
+
+**Verification**
+
+The design was verified using a Verilog testbench by applying multiple BCD input combinations and observing the corrected decimal outputs.
+
+<img width="1472" height="596" alt="bcd" src="https://github.com/user-attachments/assets/c3a3b920-7a3b-424a-9ee1-8f1d0863d20d" />
+
+
+
