@@ -92,3 +92,38 @@ A testbench was developed to verify the complete functionality of the integrated
 ## Result
 
 The FIFO, Face Module, Module Out, and Top Module were successfully implemented and verified using simulation and synthesis in Vivado. The FIFO effectively buffered data between the high-speed source and the slow output module.
+
+
+
+
+
+
+# 1. Sequence Detector (1110 Overlapping)
+
+## Description
+
+A sequence detector was implemented using a Finite State Machine (FSM) to detect the sequence 1110 with overlapping capability. The FSM continuously monitors the serial input stream and generates an output whenever the specified sequence is detected. Overlapping detection allows consecutive occurrences of the sequence to be identified without losing valid input bits.
+
+### Files
+
+- sequence_detector.v
+- sequence_detector_tb.v
+
+### Inputs
+
+- clk
+- rst
+- din
+
+### Output
+
+- detected
+
+### Verification
+
+A Verilog testbench was developed to apply different input sequences and verify the detection functionality. The output waveform was observed to confirm correct detection of the sequence 1110 with overlapping operation.
+
+**Figure 1: Sequence Detector Simulation Waveform**
+
+<img width="1584" height="595" alt="sequencedetectorovl" src="https://github.com/user-attachments/assets/befa08b4-94e5-4dad-aae2-61cd89033f17" />
+
