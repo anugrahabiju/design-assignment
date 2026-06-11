@@ -20,20 +20,18 @@ The circuit performs binary addition by cascading full adders, where the carry o
 
 **Inputs**:
 
-A
-B
+A,
+B,
 Cin
 
 **Outputs**:
 
-Sum
+Sum,
 Cout
 
 **Verification**:
 
 A Verilog testbench was developed to apply different input combinations and verify the generated sum and carry outputs.
-
-<img width="1574" height="806" alt="rca" src="https://github.com/user-attachments/assets/be1df789-9d03-40c2-bccb-d0fcbc2ca714" />
 
 
 <img width="1113" height="551" alt="rca" src="https://github.com/user-attachments/assets/a847a24e-4c35-4fd4-af67-84f1e0964afa" />
