@@ -6,6 +6,7 @@ The objective of Day 1 was to understand the basics of Verilog HDL design, simul
 The assigned tasks focused on implementing arithmetic circuits and verifying their functionality through testbenches.
 
 **Task 1: Ripple Carry Adder**:
+
 **Description*:
 
 A Ripple Carry Adder (RCA) was designed using Verilog HDL. 
@@ -14,6 +15,7 @@ The circuit performs binary addition by cascading full adders, where the carry o
 **Files**:
 
 *ripple_carry_adder.v
+
 *ripple_carry_adder_tb.v
 
 **Inputs**:
@@ -21,11 +23,12 @@ The circuit performs binary addition by cascading full adders, where the carry o
 A
 B
 Cin
-**Outputs**:
 
+**Outputs**:
 
 Sum
 Cout
+
 **Verification**:
 
 A Verilog testbench was developed to apply different input combinations and verify the generated sum and carry outputs.
