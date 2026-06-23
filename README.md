@@ -1,3 +1,157 @@
+# Summer Internship 2026 – TKM College of Engineering
+
+## About
+
+This repository contains the design assignments, verification testbenches, and project work completed as part of the Summer Internship Program in VLSI and Digital Design.
+
+The work was carried out using Verilog HDL and SystemVerilog, covering both RTL Design and Functional Verification concepts. All designs were developed, simulated, and verified using AMD Vivado 2023.2.
+
+The repository includes fundamental digital design implementations, protocol-based designs, memory architectures, verification environments, and a CNN-based hardware accelerator project.
+
+---
+
+## Repository Maintainer
+
+**Anugraha Biju**  
+VLSI Engineering Student
+
+---
+
+## Internship Details
+
+**Summer Internship 2026**  
+**TKM College of Engineering, Karicode**
+
+**Duration:** 15 Days
+
+---
+
+## Tools Used
+
+- Verilog HDL
+- SystemVerilog
+- AMD Vivado 2023.2
+- Git & GitHub
+
+---
+
+## Repository Structure
+
+### Day 1
+- Ripple Carry Adder
+- BCD Counter
+
+### Day 2
+- Decoder
+- D Flip-Flop
+- SR Flip-Flop
+- Universal Shift Register
+
+### Day 3
+- Face Detector
+- Sequence Detector
+
+### Day 4
+- Block Memory Generator
+
+### Day 5
+- BCD Adder Interface
+- FIFO Interface
+
+### Day 6
+- FIFO Transaction
+
+### Day 7
+- APB Protocol
+
+---
+
+# Project
+
+## CNN Inference Accelerator
+
+A SystemVerilog-based hardware implementation of a Convolutional Neural Network (CNN) inference accelerator designed for handwritten digit classification.
+
+The project implements the complete CNN inference pipeline in hardware, including image buffering, convolution operations, activation functions, pooling stages, fully connected layers, and classification output generation.
+
+### Design Modules
+
+- Image BRAM
+- Pixel Stream Generator
+- Convolution Engine
+- Convolution Block
+- ReLU Activation
+- Max Pooling
+- Kernel Memory
+- Runtime Weight Loader
+- Fully Connected Layer
+- Flatten Layer
+- CNN Top Module
+- Configuration Package
+
+### Verification Environment
+
+The verification environment was developed using SystemVerilog and follows a modular testbench architecture.
+
+Components include:
+
+- Interface
+- Transaction Class
+- Generator
+- Driver
+- Monitor
+- Agent
+- Scoreboard
+- Environment
+- Test
+
+### Verification Flow
+
+1. MNIST image data is loaded from text files.
+2. The Generator creates randomized test transactions.
+3. The Driver writes image data into the DUT.
+4. The CNN processes the image and generates classification scores.
+5. The Monitor captures output class values.
+6. The Scoreboard compares DUT predictions against expected labels.
+7. Pass/Fail statistics are generated.
+
+### Key Features
+
+- Modular RTL Architecture
+- SystemVerilog Verification Environment
+- Handwritten Digit Classification
+- Functional Simulation in Vivado
+- Automated Result Checking using Scoreboard
+- Support for Runtime Weight Loading
+- MNIST Dataset Based Testing
+
+---
+
+## Learning Outcomes
+
+Through this internship, the following concepts were explored:
+
+- Combinational Logic Design
+- Sequential Logic Design
+- Finite State Machines (FSM)
+- Memory-Based Architectures
+- FIFO Communication
+- APB Protocol
+- RTL Design Methodology
+- Functional Verification
+- SystemVerilog OOP Concepts
+- Verification Components and Mailboxes
+- Scoreboard-Based Validation
+- CNN Hardware Acceleration
+- Digital Design Debugging and Simulation
+
+---
+
+## Acknowledgements
+
+This work was completed as part of the Summer Internship Program conducted at **TKM College of Engineering**, providing practical exposure to Digital Design, RTL Development, Functional Verification, and Hardware Acceleration using Verilog and SystemVerilog.
+
+
 Design Assignment
 
 **Day 1**
