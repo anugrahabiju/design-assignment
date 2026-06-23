@@ -1,4 +1,4 @@
-CNN Hardware Accelerator Using SystemVerilog
+**CNN Hardware Accelerator Using SystemVerilog**
 
 Abstract
 
